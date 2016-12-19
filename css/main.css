@@ -133,7 +133,7 @@ html {
 .Aligner-item {
     color: #fff;
     max-width: 50%;
-    font-size: 5em;
+    font-size: 3.5em;
     padding-top: 140px;
     /*background: #921313;*/
     margin-top: 170px;
@@ -238,6 +238,12 @@ html {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+
+    .Aligner-item {
+        font-size: 6em;
+    }
+
+
 }
 
 @media print,
