@@ -94,19 +94,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+html { 
+  background: url(../img/city-pan.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .content {
     display: flex;
     width: 960px;
     height: 640px;
     margin: 0 auto;
-    background: url(../img/city-pan.jpg);
+   
 }
 
-.vertical-align {
-    color: #fff;
+/*.vertical-align {
     text-align: center;
-    width: 960px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+
+}*/
+
+.Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
+
+.Aligner-item {
+    color: #fff;
+    max-width: 50%;
+    font-size: 5em;
+    padding-top: 140px;
+    /*background: #921313;*/
+    margin-top: 170px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*opacity: 0.5;*/
+
+}
+
+.brand--1a {
+    background: #ffff00;
+    color: black;
+    padding: 0 5px;
+}
+
+.brand--1b {
+   margin-left: -10px;
+}
+
+
 
 
 /* ==========================================================================
