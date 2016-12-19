@@ -94,14 +94,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-.vertical-align {
+.content {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 400px;
+    width: 960px;
+    height: 640px;
+    margin: 0 auto;
+    background: url(../img/city-pan.jpg);
 }
 
+.vertical-align {
+    color: #fff;
+    text-align: center;
+    width: 960px;
+}
 
 
 /* ==========================================================================
